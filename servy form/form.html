@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="form.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="main">
+                  <h3>Survey Form</h3>
+            <form id="myForm">
+                
+                <div id="namefields">
+                    
+                    <div>
+                        <label>First Name:</label>
+                        <input type="text" placeholder="First Name" id="firstname" name="firstname">
+    
+                    </div>
+                    <div>
+                        <label>Last Name:</label>
+                        <input type="text" placeholder="Last Name" id="lastname" name="lastname">
+    
+                    </div>
+                   
+                </div>
+
+                <div class="Gender">
+                    <label>Gender:</label>
+                  
+                    <input type="radio" placeholder="" name="choice" id="male" value="male">
+                    <label>Male</label>
+                  
+                    <input type="radio" placeholder="" name="choice" id="female" value="female">
+                    <label>Female</label>
+                    <input type="radio" placeholder="" name="choice" id="radio" value="others">
+                    <label>Others</label>
+                </div>
+                <div class="bottomdiv">
+                    <div class="dateofbirth">
+                        <label>Date Of Birth:</label>
+                        <input type="date" placeholder="Date of Birth" id="dob" name="dob"/>
+                    </div>
+                    
+                    <div class="country">
+                        <label>Country:</label>
+                       <select  id="country" name="country">
+                        <option name="select">Select</option>
+                        <option value="India"> India</option>
+                        <option value="America">America</option>
+                        <option value="SriLanka">SriLanka</option>
+                        <option value="China">China</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Japan">Japan</option>
+                       </select>
+                    </div>
+                    <div class="Profession">
+                        <label>Profession:</label>
+                        <input type="text" placeholder="Profession" id="Profession" name="Profession"/>
+                    </div>
+                    <div class="gmail">
+                        <label>Email:</label>
+                        <input type="email" placeholder="Email" id="email"/>
+                    </div>
+                    <div class="number">
+                        <label>Mobile Number:</label>
+                        <input type="number" placeholder="Mobile Number" id="mobilenumber"/>
+                    </div>
+                </div>
+
+
+                <div class="buttondiv">
+                    <div>
+                        <input type="submit" value="Submit" >
+                    </div>
+                    <div>
+                        <input type="reset" value="reset" >
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </form>
+
+
+
+
+
+
+
+
+        </div>
+
+       
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="form.js"></script>
+</body>
+</html>

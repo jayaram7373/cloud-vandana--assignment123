@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#main{
+    box-shadow: 0px 0px 0px 0.1px;
+    text-align: center;
+    padding: 150px 0px;
+}
+h3{
+    color: brown;
+    padding: 5px 0px;
+}
+button{
+    background-color: cornflowerblue;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: azure;
+}
+p{
+    color: dodgerblue;
+}
+
+</style>
+<body>
+    <div id="main">
+        <h3>Enter Array Of Numbers </h3>
+        
+        <button onclick="store()">Enter Here</button>
+
+        <p id="res"></p>
+
+
+    </div>
+
+
+    <script>
+function store(){
+    let input = prompt("Enter numbers separated by commas:");
+   let arr = input.split(",").map(Number);
+
+        
+   
+ let results=arr.sort();
+  
+
+document.getElementById('res').innerHTML=results;
+};
+
+    </script>
+    
+</body>
+</html>

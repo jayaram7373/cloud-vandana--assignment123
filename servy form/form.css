@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(133, 219, 241);
+    margin:0px 200px;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
+#namefields{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    gap: 5px;
+
+ 
+
+
+}
+.bottomdiv{
+    text-align: center;
+
+}
+.Profession{
+    padding: 0px 40px;
+}
+.dateofbirth,.gmail,.Profession,.country,.number{
+    text-align: left;
+    margin-left: 120px;
+    padding: 10px 0px;
+}
+.Gender{
+    text-align: left;
+    margin-left: 120px;
+    padding: 10px 0px;
+
+}
+.bottomdiv input{
+    width: 30%;
+    margin: 0px 0px;
+}
+.buttondiv{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    text-align: center;
+    justify-content:center;
+    padding: 10px;
+}
+.buttondiv input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: darkorange;
+}
+input{
+    padding: 2px 5px;
+}
+
+

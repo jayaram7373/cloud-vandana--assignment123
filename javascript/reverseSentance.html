@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    #formdiv{
+        text-align: center;
+        padding:  80px 20px;
+        box-shadow: 0px 0px 0px 0.1px;
+
+    }
+    #input{
+        border-bottom: 1px solid black;
+        padding:5px;
+        background-color: rgb(210, 210, 230);
+    }
+
+    p{
+        text-align: center;
+        color: crimson;
+    }
+    button{
+        background-color: crimson;
+        color: aliceblue;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+
+
+
+
+
+</style>
+<body>
+ <div id="formdiv">
+     <label>Enter sentence :</label>
+    <input type="text" id="input">
+   <button onclick="resultsentence()">submit</button>
+   <p id="res"></p>
+
+  </div>
+ 
+
+    <script>
+
+function resultsentence(){
+        function reverseWords(sentence) {
+        return sentence.split(' ').map(word => {
+            return word.split('').reverse().join('');
+        }).join(' ');
+        }
+
+        let inputSentence = document.getElementById('input').value;
+       
+            let reversedSentence = reverseWords(inputSentence);
+
+        document.getElementById('res').innerHTML=reversedSentence;
+      
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 450px;
+
+
+}
+
+input{
+    padding: 10px ;
+    margin: 1px;
+    width: 40px;
+    color:rgb(232, 239, 232);
+    background-color: rgb(233, 43, 14);
+    border: none;
+    border-radius: 5px;
+
+}
+
+#form{
+    background-color: rgb(131, 130, 143);
+    margin: 10px;
+    padding: 20px;
+}
+#num{
+    background-color: black;
+}
+#num1{
+    background-color: blueviolet;
+
+}
+#num2{
+    background-color: rgb(34, 183, 15);
+  
+    color: black;
+}
+
+#result{
+    width: 53%;
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid;
+}
+
+    
